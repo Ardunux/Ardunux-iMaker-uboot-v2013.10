@@ -99,6 +99,10 @@ Examples:
 
 	$ make mx23_olinuxino_config
 
+5. For building U-boot for Ardunux MX23 iMaker board:
+
+	$ make mx23_imaker_config
+
 Lastly, compile U-Boot and prepare a "BootStream". The "BootStream" is a special
 type of file, which MXS CPUs can boot. This is handled by the following
 command:
